@@ -6,4 +6,6 @@ class ImagePath {
   // === Home Screen === //
   static const String quranVerseBanner = 'assets/images/bg/quranic_bg.jpg';
   static const String theSunnahBanner = 'assets/images/bg/sunnah_bg.png';
+
+  static const String prayerTimesBanner = 'assets/images/bg/img.png';
 }

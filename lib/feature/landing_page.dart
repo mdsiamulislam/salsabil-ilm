@@ -3,7 +3,7 @@ import 'package:ilm/core/theme/color/color.dart';
 import 'package:ilm/feature/bookmark/views/bookmark_screen.dart';
 import 'package:ilm/feature/explore/views/explore_screen.dart';
 import 'package:ilm/feature/home/views/home_screen.dart';
-import 'package:ilm/feature/settngs/views/settings_screen.dart';
+import 'package:ilm/feature/settings/views/settings_screen.dart';
 
 class LandingPage extends StatefulWidget {
   const LandingPage({super.key});
