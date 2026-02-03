@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:ilm/core/string_constent/external_link.dart';
 import 'package:ilm/core/utils/url_launcher.dart';
 import 'package:ilm/feature/ramadan/controllers/count_down_controller.dart';
 import 'package:get/get.dart';
@@ -199,12 +200,20 @@ class CountDownPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   _socialButton(FontAwesomeIcons.facebook, primaryColor, () {
-                    UrlLauncherHelper.openUrl('https://www.facebook.com/');
+                    UrlLauncherHelper.openUrl(ExternalLink.salsabilFacebookPage);
                   }),
                   const SizedBox(width: 18),
-                  _socialButton(FontAwesomeIcons.whatsapp, primaryColor, () {}),
+                  _socialButton(FontAwesomeIcons.whatsapp, primaryColor, () {
+                    UrlLauncherHelper.openUrl(ExternalLink.salsabilWhatsAppChannel);
+                  }),
                   const SizedBox(width: 18),
-                  _socialButton(FontAwesomeIcons.telegram, primaryColor, () {}),
+                  _socialButton(FontAwesomeIcons.telegram, primaryColor, () {
+                    UrlLauncherHelper.openUrl(ExternalLink.salsabilTelegramChannel);
+                  }),
+                  const SizedBox(width: 18),
+                  _socialButton(FontAwesomeIcons.youtube, primaryColor, () {
+                    UrlLauncherHelper.openUrl(ExternalLink.salsabilYoutubeChannel);
+                  }),
                 ],
               ),
 
