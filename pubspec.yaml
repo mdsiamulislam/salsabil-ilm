@@ -20,6 +20,7 @@ dependencies:
   ## === Icons and Fonts === ##
   cupertino_icons: ^1.0.8
   google_fonts: ^6.3.2
+  font_awesome_flutter: ^10.12.0
 
   ## === State Management === ##
   get: ^4.7.2
@@ -65,6 +66,9 @@ dependencies:
   ## === File Picker === ##
   file_picker: ^10.3.3
 
+  ## === Quran === ##
+  quran: ^1.4.1
+
 #  ## === Video Player === ##
 #  video_player: ^2.6.1
 #  ## === Audio Player === ##
@@ -75,7 +79,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 
 ## === Assets === ##
